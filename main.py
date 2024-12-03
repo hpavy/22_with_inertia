@@ -6,15 +6,15 @@ print(device)
 
 ############# VARIABLES ################
 
-folder_result_name = "7_model_3_case_2_zoom"  # name of the result folder
+folder_result_name = "3_modele_3_case_1"  # name of the result folder
 
 # Uniquement si nouveau modèle
 
 hyper_param_init = {
-    "H": 0.,  # la rigidité du ressort
-    "ya_0": 0.,  # la position initiale du ressort
-    "m": 0.,    # la masse du ressort
-    "file": "data_john_3_case_2.csv",
+    "H": 261.39,  # la rigidité du ressort
+    "ya0": 0.0175,  # la position initiale du ressort
+    "m": 1.57,    # la masse du ressort
+    "file": "data_john_3_case_1.csv",
     "nb_epoch": 10000,  # epoch number
     "save_rate": 50,  # rate to save
     "weight_data": 1,
