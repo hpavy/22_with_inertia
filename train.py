@@ -127,7 +127,11 @@ def train(
             t_std=t_std,
             u_std=u_std,
             v_std=v_std,
-        )
+            ya0=ya0,
+            w_0=w_0,
+            param_adim=param_adim,
+            mean_std=mean_std
+    )
         loss_test_pde = (
             torch.mean(test_pde1**2)
             + torch.mean(test_pde2**2)
